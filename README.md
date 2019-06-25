@@ -23,7 +23,7 @@ if (capacity <= 10 and status == "Discharging"):
   dev.RGB(16, 0, 0) blinking red as heartbeat
 	
 if (status == "Charging"):
-  dev.RGB(5,1,1) blinking by timer
+  dev.RGB(5,1,1) / red blinking by timer
 ```
 
 Enjoy
