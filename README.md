@@ -3,7 +3,7 @@ Simple DualShock4 (DS4) daemon for displaying the level of the battery charge on
 
 # Installation
 
-Copy file to /home/pi/ds4pwrled.py
+Copy ds4pwrled.py file to /home/pi/ds4pwrled.py
 and add line  to /etc/rc.local
 ```
 sudo python3 /home/pi/ds4pwrled.py  &
