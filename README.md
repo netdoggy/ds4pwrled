@@ -30,6 +30,9 @@ Enjoy
 
 # Reference 
 https://github.com/RetroPie/RetroPie-Setup/wiki/PS4-Controller
+
 https://wiki.gentoo.org/wiki/Sony_DualShock
+
 https://github.com/torvalds/linux/blob/master/drivers/hid/hid-sony.c
+
 https://www.psdevwiki.com/ps4/DualShock_4
