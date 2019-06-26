@@ -135,6 +135,13 @@ def ds4check (path):
 			dev.led_trigger('red', 'heartbeat')
 			dev.RGB(16, 0, 0)
 	
+	elif (status == "Full"):
+		#print ("<=* charging", dev.RGB())
+		if dev.RGB() != [10,5,0]:
+			dev.RGB(10,5,0)
+
+		if dev.led_trigger('red') != 'none':
+			dev.led_trigger('red', 'none')
 
 	elif (status == "Charging"):
 		#print ("<=* charging", dev.RGB())
@@ -144,7 +151,6 @@ def ds4check (path):
 	else:
 		pass
 		
-
 while True:
 	devices = ds4control.get_devices()
 	for dev in devices:
